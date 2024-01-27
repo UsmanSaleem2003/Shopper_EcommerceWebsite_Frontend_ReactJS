@@ -1,0 +1,125 @@
+.ProductDisplay {
+    display: flex;
+    margin: 0px 110px;
+}
+
+.productDisplay-left {
+    display: flex;
+    gap: 17px;
+    width: auto;
+}
+
+.productDisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.productdisplay-img-list img {
+    height: 113px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.productDisplay-main-img {
+    width: 500px;
+    height: 470px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.productDisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productDisplay-right h1 {
+    color: #292727;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.productDisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.productDisplay-right-prices {
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productDisplay-right-price-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productDisplay-right-price-new {
+    color: #e01e1e;
+    font-size: 20px;
+}
+
+.productDisplay-right-description {
+    margin: 20px 0px;
+}
+
+.productDisplay-right-size h1 {
+    margin-top: 10px;
+    color: #4d4c4c;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.productDisplay-right-sizes {
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+.productDisplay-right-sizes div {
+    padding: 18px 24px;
+    background: rgb(41, 40, 40);
+    color: white;
+    border: 1 solid #ebebeb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.productDisplay-right-sizes div:hover {
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.productDisplay-right button {
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.productDisplay-right button:hover {
+    transform: scale(1.03);
+    transition: 1s ease-in-out;
+}
+
+.productDisplay-right-category2 {
+    margin-bottom: 30px;
+}
+
+.categories {
+    font-weight: 600;
+}

@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    box-shadow: 0px 1px 8px -2px black;
+    /* background-color: #f7f4f4; */
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar:hover {
+    box-shadow: 0px 1px 10px -2px black;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav_logo p {
+    color: rgb(117, 117, 50);
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.nav_logo p:hover {
+    color: rgb(182, 182, 83);
+    transition: 0.3s ease-in-out;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.nav_menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    color: rgb(119, 119, 53);
+    transition: 0.3s ease-in-out;
+}
+
+.nav_menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #e93535;
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    cursor: pointer;
+}
+
+.nav-login-cart button {
+    width: 117px;
+    height: 48px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 18px;
+    font-weight: 520;
+    background: white;
+    cursor: pointer;
+}
+
+.userIcon {
+    padding-right: 10px;
+}
+
+.nav-login-cart button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.nav-login-cart button:active {
+    background-color: #575454;
+}
+
+.badge {
+    margin-top: -4px;
+}
